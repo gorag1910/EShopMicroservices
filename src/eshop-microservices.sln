@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1F270B94-3445-4A4E-9F1A-C2BF9E91B231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A3626693-77B0-450C-BFC5-4EC796495CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{25DFFDA0-FE50-435D-871E-580A97D31E81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{08D622B4-AEDC-4E9B-99F7-C1F8B8BE923C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{555BAAD1-DB61-4B52-83C5-EB036AE7DF58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25DFFDA0-FE50-435D-871E-580A97D31E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DFFDA0-FE50-435D-871E-580A97D31E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DFFDA0-FE50-435D-871E-580A97D31E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DFFDA0-FE50-435D-871E-580A97D31E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555BAAD1-DB61-4B52-83C5-EB036AE7DF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555BAAD1-DB61-4B52-83C5-EB036AE7DF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555BAAD1-DB61-4B52-83C5-EB036AE7DF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555BAAD1-DB61-4B52-83C5-EB036AE7DF58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3626693-77B0-450C-BFC5-4EC796495CA9} = {1F270B94-3445-4A4E-9F1A-C2BF9E91B231}
+		{25DFFDA0-FE50-435D-871E-580A97D31E81} = {A3626693-77B0-450C-BFC5-4EC796495CA9}
+		{555BAAD1-DB61-4B52-83C5-EB036AE7DF58} = {08D622B4-AEDC-4E9B-99F7-C1F8B8BE923C}
+	EndGlobalSection
+EndGlobal

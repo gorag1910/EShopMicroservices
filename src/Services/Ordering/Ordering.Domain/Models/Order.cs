@@ -56,6 +56,7 @@ public class Order : Aggregate<OrderId>
         _orderItems.Add(orderItem);
     }
 
+    // Responsible for removing new OrderItem from Order Aggregate
     public void Remove(ProductId productId)
     {
         var orderItem = _orderItems.FirstOrDefault(x => x.ProductId == productId);
